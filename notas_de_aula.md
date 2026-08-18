@@ -12,6 +12,12 @@
   - Para evitar que o receptor interprete esse byte como delimitador, utiliza-se um byte de escape (ESC).
   - Quando o byte de flag aparece nos dados, o remetente insere um ESC antes dele.
   - O receptor identifica o ESC e sabe que o flag seguinte faz parte dos dados, removendo o ESC posteriormente.
+- **Bytes de Flag com inserção de bits**
+  - Utiliza um byte de flag para indicar o início e o fim de um quadro.
+  - Para evitar que a sequência do flag apareça dentro dos dados, utiliza-se a inserção de bits (bit stuffing).
+  - Sempre que aparecem cinco bits 1 consecutivos nos dados, o transmissor insere automaticamente um bit 0.
+  - O receptor remove esse bit 0 após receber os dados.
+  - Dessa forma, a sequência de flag não é confundida com parte dos dados.
 
 ## Diferença entre Serviço e Protocolo
 
