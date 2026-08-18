@@ -1,10 +1,17 @@
 # 18/03
-- camada de enlaçe divide os bits em quadros
+- camada de enlaçe divide os bits em quadros (Enquadramento)
 - **Checksum** é um método utilizado para detectar erros ou corrupção de dados durante a transmissão.
 - O remetente calcula um valor (checksum) a partir dos dados e o envia junto com a mensagem.
 - O receptor realiza o mesmo cálculo e compara os resultados.
 - Se os valores forem diferentes, indica que os dados podem ter sido alterados ou corrompidos.
 - O checksum detecta erros, mas não necessariamente consegue corrigi-los.
+- Contagem de caracteres não é confiavel devido a interferencia
+- **Bytes de flag com inserção de bytes**
+  - O byte de flag é utilizado para indicar o início e o fim de um quadro.
+  - Problema: o byte de flag pode aparecer dentro dos dados.
+  - Para evitar que o receptor interprete esse byte como delimitador, utiliza-se um byte de escape (ESC).
+  - Quando o byte de flag aparece nos dados, o remetente insere um ESC antes dele.
+  - O receptor identifica o ESC e sabe que o flag seguinte faz parte dos dados, removendo o ESC posteriormente.
 
 ## Diferença entre Serviço e Protocolo
 
