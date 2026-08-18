@@ -1,3 +1,15 @@
+# 18/03
+
+-- CAMADA FISICA
+
+- Comunicação sem fio modulada atravez de ondas eletromagneticas (comprimento, frequencia e amplitude)
+- Velocidade afetada pelo meio
+- frequencia alta é absorvida mais facilmente por materiais, pode causar problemas á saúde e são dificeis de serem lidas preciamente, ja ondas de frequencia menor permeam o meio com mais facilidade
+- Espectro de Dispersão por Salto de Frequencia (método de transmissão de sinais de rádio que altera rapidamente a frequência portadora em uma sequência pseudoaleatória)
+- Espectro de Dispersão de Sequencia Direta (técnica de modulação em telecomunicações que espalha a energia de um sinal de dados por uma faixa de frequência muito mais ampla, usando códigos pseudoaleatórios)
+- banda ultralarga (tecnologia de rádio sem fio de curto alcance que transmite dados por meio de pulsos curtos de nanossegundos em uma faixa de frequência superior a 500 MHz)
+- analise de fourier (serve para dividir qualquer sinal ou função complexa em uma soma de ondas simples, como senos e cossenos)
+
 # 11/08
 - Modelo OSI Simplificado ( Fisica, Enlace, Rede, Transporte e Aplicação)
 - Camada Fisica responsavel por transmitir bits
