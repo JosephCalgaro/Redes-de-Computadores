@@ -1,4 +1,10 @@
 # 18/03
+- camada de enlaçe divide os bits em quadros
+- **Checksum** é um método utilizado para detectar erros ou corrupção de dados durante a transmissão.
+- O remetente calcula um valor (checksum) a partir dos dados e o envia junto com a mensagem.
+- O receptor realiza o mesmo cálculo e compara os resultados.
+- Se os valores forem diferentes, indica que os dados podem ter sido alterados ou corrompidos.
+- O checksum detecta erros, mas não necessariamente consegue corrigi-los.
 
 ## Diferença entre Serviço e Protocolo
 
