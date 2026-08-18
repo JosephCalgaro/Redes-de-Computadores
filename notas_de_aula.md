@@ -1,4 +1,7 @@
 # 18/03
+- diferença entre serviço e protocolo:
+    Serviço → o que é oferecido ao usuário ou a outra aplicação.
+    Protocolo → as regras de como essa comunicação acontece.
 
 -- CAMADA FISICA
 
