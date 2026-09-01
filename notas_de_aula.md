@@ -6,6 +6,17 @@
 - endereço ip representa "quem" é a minha rede e "quem" sou eu
 - Mascara de rede é um numero que varia entre 0 a 255, determina quantos ips posso utilizar para host
 
+ - exemplo distribuição de ips:
+192.168.0 - 31
+192.168.32 - 63
+64 - 95
+96 - 127
+128 - 159
+160 - 191
+192 - 223
+224 - 255
+
+
 # 18/03
 - camada de enlaçe divide os bits em quadros (Enquadramento)
 - **Checksum** é um método utilizado para detectar erros ou corrupção de dados durante a transmissão.
