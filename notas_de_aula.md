@@ -1,3 +1,9 @@
+# 01/09
+- camadas divididas em protocolos que as "gerem"
+- **camada FISICA recebe dados do meio e envia dados da camada de enlace**
+- **camada de enlace recebe os dados da camada fisica e fica responsavel por dividir, enquadras, checkar, corrigir e enviar os dados da camada fisica para a camada de rede**
+- **A camada de rede é responvavel por "mandar" os dados da origem para o destino atravez do ip**
+
 # 18/03
 - camada de enlaçe divide os bits em quadros (Enquadramento)
 - **Checksum** é um método utilizado para detectar erros ou corrupção de dados durante a transmissão.
