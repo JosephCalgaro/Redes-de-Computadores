@@ -5,6 +5,9 @@
 - **A camada de rede é responvavel por "mandar" os dados da origem para o destino atravez do ip**
 - endereço ip representa "quem" é a minha rede e "quem" sou eu
 - Mascara de rede é um numero que varia entre 0 a 255, determina quantos ips posso utilizar para host
+- em uma mascara de rede, o ip de comunicação de rede é sempre o primeiro e o de broadcast é sempre o ultimo
+- Multiplicidade de ip **rede multiplo da quantidade de ip disponiveis**
+- Variable Length Subnet Mask (VLSM) 
 
  - exemplo distribuição de ips:
 - 192.168.0 - 31
