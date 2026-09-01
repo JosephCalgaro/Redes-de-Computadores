@@ -3,6 +3,8 @@
 - **camada FISICA recebe dados do meio e envia dados da camada de enlace**
 - **camada de enlace recebe os dados da camada fisica e fica responsavel por dividir, enquadras, checkar, corrigir e enviar os dados da camada fisica para a camada de rede**
 - **A camada de rede é responvavel por "mandar" os dados da origem para o destino atravez do ip**
+- endereço ip representa "quem" é a minha rede e "quem" sou eu
+- Mascara de rede é um numero que varia entre 0 a 255, determina quantos ips posso utilizar para host
 
 # 18/03
 - camada de enlaçe divide os bits em quadros (Enquadramento)
