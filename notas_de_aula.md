@@ -1,3 +1,7 @@
+# 08/09
+- Formula para descobir rapidamente a quantidade de ips totais de uma mascara **IPs totais = 2^(32 − CIDR)**
+- CDIR se refere a / alguma coisa
+
 # 01/09
 - camadas divididas em protocolos que as "gerem"
 - **camada FISICA recebe dados do meio e envia dados da camada de enlace**
