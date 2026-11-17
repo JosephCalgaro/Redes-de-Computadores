@@ -1,3 +1,7 @@
+# 17/11
+- Camada de aplicação responsavel pelo formato da mensagem enviada
+- Camada de transporte responsavel por gerenciar a comunicação entre aplicações utilizando portas e protocolos (TCP, UDP)
+
 # 08/09
 - Formula para descobir rapidamente a quantidade de ips totais de uma mascara **IPs totais = 2^(32 − CIDR)**
 - CDIR se refere a / alguma coisa
